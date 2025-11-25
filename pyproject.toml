@@ -1,0 +1,11 @@
+[project]
+name = "allauth-demo"
+version = "0.1.0"
+description = "A demo project for django-allauth"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies=[
+    "django>=5.2.6",
+    "django-allauth[socialaccount]>=65.13.1",
+]
